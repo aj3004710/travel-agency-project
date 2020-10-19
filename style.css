@@ -1,0 +1,258 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: arial;
+  overflow-x: hidden;
+}
+
+
+/*################################################################ NAVIGATION #############################################################################*/
+nav {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 4rem;
+  
+}
+
+nav ul {
+  align-items: center;
+  display:flex;
+  list-style-type: none;
+  margin-right: 5%;
+  margin-left: auto;
+}
+
+
+nav ul a {
+  padding: 1rem;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+nav ul a:hover {
+  font-weight: bold;
+}
+
+.logo {
+  color: #fff;
+  margin-left: 5%;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-size: 1rem;
+  text-align: center;
+  text-decoration: none;
+}
+
+.logo:hover {
+  text-decoration: underline;
+}
+
+/*################################################################ BANNER #############################################################################*/
+.banner-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  text-align: center;
+}
+
+
+.banner-header {
+  margin-top: 0;
+}
+
+.text-part {
+  width: 65%;
+  color: white;
+}
+
+.test {
+  height: 100vh;
+  background:  linear-gradient(
+      rgba(0, 0, 0, 0.45),
+      rgba(0, 0, 0, 0.45)),
+      url(images/greece-background.jpeg);
+      background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+}
+
+button {
+  font-family: arial;
+  font-size: 1rem;
+  height: 3.5rem;
+  width: 9rem;
+  margin: 1rem;
+  background-color: rgba(255, 255, 255, .0);
+  color: white;
+  border: 2px solid white;
+  outline: none;
+}
+
+button:hover {
+  background-color: rgba(0, 0, 0, .45);
+  cursor: pointer;
+}
+
+/*################################################################ HOME SECTION 1 ############################################################################*/
+
+.section1-home-header {
+  text-align: center;
+  letter-spacing: 1px;
+  font-size: 1.2rem;
+}
+
+.section1-home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.tours-box {
+  width: 300px;
+  height: 330px;
+  margin: 1rem 4rem;
+  padding: 1rem 0rem 0rem 0rem;
+  text-align: center;
+  box-shadow: 1px 1px 5px 0px #000000, -1px -1px 5px 0px #000000;
+  border-radius: 10px;
+}
+
+.section1-home a {
+  text-decoration: none;
+  color: black;
+  width: 300px;
+}
+
+.tours-box:hover {
+  background:  linear-gradient(
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.1));
+  cursor: pointer;
+}
+
+.flag-div img {
+  display: block;
+  height: 50px;
+  width: 50px;
+  margin: auto;
+}
+
+.pic-div img {
+  display: block;
+  height: 100%;
+  width: 95%;
+  margin: auto;
+  border-radius: 3px;
+}
+
+.turkey img {
+  width: 60px;
+  height: 37px;
+  padding: 5px 0px;
+  
+}
+
+.pic-div {
+  height: 50%;
+  width: 100%;
+}
+
+
+/* ########################################################## HOME SECTION 2 ##################################################### */
+
+
+.section2-home {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 3rem;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.55),
+      rgba(0, 0, 0, 0.55)),
+      url(images/greek-flag-background.png);
+      background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;;
+}
+
+.section2-home img {
+  height: auto;
+  width: 95%;
+  display: block;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.section2-right-img-div {
+  display: block;
+  width: 100%;
+  height: 50%
+}
+
+.section2-home button {
+  color: white;
+  font-family: arial;
+  font-size: 1rem;
+  height: 3.5rem;
+  width: 9rem;
+  margin: 1rem;
+  background-color: rgba(255, 255, 255, .0);
+  border: 2px solid white;
+  outline: none;
+}
+
+.section2-home button:hover {
+  background-color: rgba(255, 255, 255, .2);
+}
+
+.section2-left {
+  color: white;
+  padding: 3rem 4rem 3rem 3rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 500px;
+}
+
+.section2-left h3 {
+  font-size: 30px;
+}
+
+.section2-left p {
+  font-size: 19px;
+  font-weight: 600;
+}
+
+.section2-right {
+  padding: 3rem 3rem 3rem 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+}
+
+
+
+
+
+
+
