@@ -84,7 +84,7 @@ nav ul a:hover {
   background:  linear-gradient(
       rgba(0, 0, 0, 0.45),
       rgba(0, 0, 0, 0.45)),
-      url(images/greece-background.jpeg);
+      url(greece-background.jpeg);
       background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
@@ -187,7 +187,7 @@ button:hover {
   background: linear-gradient(
       rgba(0, 0, 0, 0.55),
       rgba(0, 0, 0, 0.55)),
-      url(images/greek-flag-background.png);
+      url(greek-flag-background.png);
       background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;;
